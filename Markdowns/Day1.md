@@ -42,3 +42,26 @@ print("Father Name: ", "Zahid Mehmood")
 print("Country: ", "Pakistan")
 print("I am enjoying 30 days of python")
 ```
+
+<p>4. Check the data types of the following data:</p>
+<ul>
+    <li>10</li>
+    <li>9.8</li>
+    <li>3.14</li>
+    <li>4-4j</li>
+    <li>['Abdullah','Python','Pakistan']</li>
+    <li>Your name</li>
+    <li>Your father name</li>
+    <li>Your Country</li>
+</ul>
+
+```py
+print(type(10))
+print(type(9.8))
+print(type(3.14))
+print(type(4-4j))
+print(type(['Abdullah','Python','Pakistan']))
+print(type("Abdullah"))
+print(type("Zahid"))
+print(type("Pakistan"))
+```
