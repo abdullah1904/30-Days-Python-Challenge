@@ -2,9 +2,7 @@
 <h2>Day 1 (Introduction)</h1>
 <h3>Exercise 1:</h3>
 <p>1. Check the python version you are using</p>
-```py
-python --version # Run this command in CLI
-```
+<code>py python --version</code>
 <br/><br/>
 <p>2. Open the python interactive shell and do the following operations. The operands are 3 and 4.</p>
 <ul>
@@ -16,14 +14,12 @@ python --version # Run this command in CLI
     <li>Exponential</li>
     <li>Floor Division</li>
 </ul>
-<code>
-print(3+4)<br>
+<code>print(3+4)<br>
 print(3-4)<br>
 print(3*4)<br>
 print(3%4)<br>
 print(3/4)<br>
 print(3**4)<br>
-print(3//4)<br>
-</code>
+print(3//4)</code>
 
 
