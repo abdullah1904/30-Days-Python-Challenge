@@ -1,5 +1,5 @@
 <h1 align="center">30 Days Python Challenge</h1>
-<table border="1" width="100%">
+<table border="1" width="80%" align="center">
     <thead width="100%">
         <th width="100%" colspan="2">Table of Content</th>
     </thead>
