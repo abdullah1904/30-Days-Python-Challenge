@@ -66,6 +66,7 @@ print(type("Zahid"))
 print(type("Pakistan"))
 ```
 
+<hr/>
 <h3>Exercise 2:</h3>
 <p>1. Create a folder named day_1 inside 30DaysOfPython folder. Inside day_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. Remember to use print() when you are working on a python file. Navigate to the directory where you have saved your file, and run it.</p>
 
@@ -105,4 +106,20 @@ print(type("Abdullah"))
 print(type("Zahid"))
 print(type("Pakistan"))
 print("")
+```
+
+<hr/>
+<h3>Exercise 3:</h3>
+<p>1. Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.</p>
+
+```py
+print(4)
+print(3.14)
+print(5-4j)
+print("Pakistan")
+print(True)
+print([1,2,3])
+print((4,5,6))
+print({7,8,9})
+print({"name":"Abdullah"})
 ```
