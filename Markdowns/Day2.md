@@ -103,7 +103,8 @@ print(len(firstName))
 <p>3. Compare the length of your first name and your last name</p>
 
 ```py
-
+print("Length of first name: ",len(firstName))
+print("Length of last name: ",len(lastName))
 ```
 
 <p>4. Declare 5 as num_one and 4 as num_two</p>
@@ -119,7 +120,21 @@ print(len(firstName))
 </ol>
 
 ```py
-
+num_one, num_two = 5,4
+total = num_one+num_two
+print("5+4 = ",total)
+diff = num_one-num_two
+print("5-4 = ",diff)
+product = num_one*num_two
+print("5*4 = ",product)
+division = num_one/num_two
+print("5/4 = ",division)
+remainder = num_two%num_one
+print("5%4 = ",remainder)
+exp = num_one**num_two
+print("5**4 = ",exp)
+floor_division = num_one//num_two
+print("5//4 = ",floor_division)
 ```
 
 <p>5. The radius of a circle is 30 meters</p>
