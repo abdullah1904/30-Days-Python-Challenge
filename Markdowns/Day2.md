@@ -76,4 +76,72 @@ is_light_on = False
 education, skills = "BSCS",['Python','JavaScript','React']
 ```
 <hr/>
+<h3>Exercise 2:</h3>
+<p>1. Check the data type of all your variables using type() built-in function</p>
+
+```py
+print(type(firstName))
+print(type(lastName))
+print(type(fullName))
+print(type(county))
+print(type(city))
+print(type(age))
+print(type(year))
+print(type(is_married))
+print(type(is_True))
+print(type(is_light_on))
+print(type(education))
+print(type(skills))
+```
+
+<p>2. Using the len() built-in function, find the length of your first name</p>
+
+```py
+print(len(firstName))
+```
+
+<p>3. Compare the length of your first name and your last name</p>
+
+```py
+
+```
+
+<p>4. Declare 5 as num_one and 4 as num_two</p>
+<ol type="i">
+    <li>Add num_one and num_two and assign the value to a variable total</li>
+    <li>Subtract num_two from num_one and assign the value to a variable diff
+</li>
+    <li>Multiply num_two and num_one and assign the value to a variable product</li>
+    <li>Divide num_one by num_two and assign the value to a variable division</li>
+    <li>Use modulus division to find num_two divided by num_one and assign the value to a variable remainder</li>
+    <li>Calculate num_one to the power of num_two and assign the value to a variable exp</li>
+    <li>Find floor division of num_one by num_two and assign the value to a variable floor_division</li>
+</ol>
+
+```py
+
+```
+
+<p>5. The radius of a circle is 30 meters</p>
+<ol type="i">
+    <li>Calculate the area of a circle and assign the value to a variable name of area_of_circle</li>
+    <li>Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle</li>
+    <li>Take radius as user input and calculate the area.</li>
+</ol>
+
+```py
+
+```
+
+<p>6. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names</p>
+
+```py
+
+```
+
+<p>7. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords</p>
+
+```py
+
+```
 <a href="Day1.md">Day 1</a> --- <a href="Day3.md">Day 3</a>
