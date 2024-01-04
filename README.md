@@ -1,4 +1,5 @@
 <h1 align="center">30 Days Python Challenge</h1>
+<p>Doing the 30 Days of Python from @Asabeneh</p>
 <table border="1" width="90%" align="center">
     <thead width="100%">
         <th width="100%" colspan="4">Table of Content</th>
