@@ -1,5 +1,5 @@
 <h1 align="center">30 Days Python Challenge</h1>
-<p>Doing the 30 Days of Python from <a href="https://github.com/Asabeneh">Asabeneh</a></p>
+<p>Doing the <a href="https://github.com/Asabeneh/30-Days-Of-Python">30-Days-of-Python</a> from <a href="https://github.com/Asabeneh">Asabeneh</a></p>
 <table border="1" width="90%" align="center">
     <thead width="100%">
         <th width="100%" colspan="4">Table of Content</th>
