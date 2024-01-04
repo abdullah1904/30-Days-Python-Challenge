@@ -1,0 +1,11 @@
+firstName = "Abdullah"
+lastName = "Zahid"
+fullName = "Abdullah Zahid"
+county = "Pakistan"
+city = "Lahore"
+age = 19
+year = 2024
+is_married = False
+is_True = True
+is_light_on = False
+education, skills = "BSCS",['Python','JavaScript','React']
