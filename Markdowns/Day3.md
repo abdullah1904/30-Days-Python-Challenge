@@ -72,13 +72,45 @@
 ```
 
 <p>15. There is no 'on' in both dragon and python</p>
+
+```py
+```
+
 <p>16. Find the length of the text python and convert the value to float and convert it to string</p>
+
+```py
+```
+
 <p>17. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?</p>
+
+```py
+```
+
 <p>18. Check if the floor division of 7 by 3 is equal to the int converted value of 2.7</p>
+
+```py
+```
+
 <p>19. Check if type of '10' is equal to type of 10</p>
+
+```py
+```
+
 <p>20. Check if int('9.8') is equal to 10</p>
+
+```py
+```
+
 <p>21. Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person</p>
+
+```py
+```
+
 <p>22. Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years</p>
+
+```py
+```
+
 <p>23. Write a Python script that displays the following table<br/>
 1 1 1 1 1<br/>
 2 1 2 4 8<br>
@@ -86,4 +118,6 @@
 4 1 4 16 64<br>
 5 1 5 25 125</p>
 
+```py
+```
 <a href="Day2.md">Day 2</a> --- <a href="Day4.md">Day 4</a>
