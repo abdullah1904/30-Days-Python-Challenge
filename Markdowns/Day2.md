@@ -145,18 +145,33 @@ print("5//4 = ",floor_division)
 </ol>
 
 ```py
-
+radius = 30
+pi = 3.1415
+area_of_circle = pi*radius**2
+circum_of_circle = 2*pi*radius
+print("Area of 30 meters radius circle: ",area_of_circle)
+print("Circumference of 30 meters radius circle: ",circum_of_circle)
+radius = int(input("Enter the radius: "))
+area_of_circle = pi*radius**2
+print("Area of ",radius," meters radius circle: ",area_of_circle)
 ```
 
 <p>6. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names</p>
 
 ```py
-
+firstName = input("Enter First Name: ")
+lastNameName = input("Enter Last Name: ")
+county = input("Enter Country: ")
+age = input("Enter Age: ")
+print("First Name: ", firstName)
+print("Last Name: ", lastName)
+print("Country: ",county)
+print("Age: ",age)
 ```
 
 <p>7. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords</p>
 
 ```py
-
+help("keywords")
 ```
 <a href="Day1.md">Day 1</a> --- <a href="Day3.md">Day 3</a>

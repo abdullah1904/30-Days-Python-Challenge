@@ -55,3 +55,33 @@ print("5%4 = ",remainder)
 print("5**4 = ",exp)
 print("5//4 = ",floor_division)
 print("")
+
+# Task 5
+print("Task 5: ")
+radius = 30
+pi = 3.1415
+area_of_circle = pi*radius**2
+circum_of_circle = 2*pi*radius
+print("Area of 30 meters radius circle: ",area_of_circle)
+print("Circumference of 30 meters radius circle: ",circum_of_circle)
+radius = int(input("Enter the radius: "))
+area_of_circle = pi*radius**2
+print("Area of ",radius," meters radius circle: ",area_of_circle)
+print("")
+
+# Task 6
+print("Task 6: ")
+firstName = input("Enter First Name: ")
+lastNameName = input("Enter Last Name: ")
+county = input("Enter Country: ")
+age = input("Enter Age: ")
+print("First Name: ", firstName)
+print("Last Name: ", lastName)
+print("Country: ",county)
+print("Age: ",age)
+print("")
+
+# Task 7
+print("Task 7: ")
+help("keywords")
+print("")
