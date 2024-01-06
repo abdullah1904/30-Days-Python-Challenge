@@ -4,51 +4,81 @@
 <p>1. Declare your age as integer variable</p>
 
 ```py
+age = 19
 ```
 
 <p>2. Declare your height as a float variable</p>
 
 ```py
+height = 1.8288
 ```
 
 <p>3. Declare a variable that store a complex number</p>
 
 ```py
+equation = 2-5j 
 ```
 
 <p>4. Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).</p>
 
 ```py
+base = float(input("Enter base of triangle: "))
+height = float(input("Enter height of triangle: "))
+print("Area:",0.5*base*height)
 ```
 
 <p>5. Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).</p>
 
 ```py
+a = float(input("Enter First Side: "))
+b = float(input("Enter Second Side: "))
+c = float(input("Enter Third Side: "))
+print("Perimeters: ", a+b+c)
 ```
 
 <p>6. Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))</p>
 
 ```py
+length = float(input("Enter Length: "))
+width = float(input("Enter Width: "))
+print("Area: ",length*width)
+print("Perimeter", 2*(length+width))
 ```
 
 <p>7. Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.</p>
 
 ```py
+pi = 3.14
+radius = float(input("Enter Radius: "))
+print("Area: ", pi*radius**2)
+print("Circumference: ",2*pi*radius)
 ```
 
 <p>8. Calculate the slope, x-intercept and y-intercept of y = 2x -2</p>
 
 ```py
+slope1 = 2
+xIntercept = (-1,0)
+yIntercept = (0,-2)
+print("The slope of y=2x-2 is ",slope1)
+print("The x-intercept of y=2x-2 is ",xIntercept)
+print("The y-intercept of y=2x-2 is ",yIntercept)
 ```
 
 <p>9. Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)</p>
 
 ```py
+slope2 = (6-2)/(10-2)
+distance = ((6-2)**2+(10-4)**4)**(1/2)
+print("Slope of (2, 2) and (6,10) is ",slope2)
+print("Euclidean of (2, 2) and (6,10) is ",distance)
 ```
 
 <p>10. Compare the slopes in tasks 8 and 9.</p>
 
 ```py
+print("Slope of y=2x-2 is ",slope1)
+print("Slope of (2, 2) and (6,10) is ",slope2)
 ```
 
 <p>11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.</p>

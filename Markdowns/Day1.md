@@ -127,6 +127,6 @@ print({"name":"Abdullah"})
 <p>2. Find an Euclidean distance between (2, 3) and (10, 8)<p>
 
 ```py
-print("Euclidean Distance Between (2,3) and (10,8):",(10-2)**2 + (8-3)**2)
+print("Euclidean Distance Between (2,3) and (10,8):",((10-2)**2 + (8-3)**2)**(1/2))
 ```
 <a href="Day2.md">Day 2</a>
