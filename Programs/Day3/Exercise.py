@@ -40,7 +40,6 @@ print("Area: ", pi*radius**2)
 print("Circumference: ",2*pi*radius)
 print("")
 
-"""
 # Task 8 
 print("Task 8: ")
 slope1 = 2
@@ -66,4 +65,29 @@ print("Slope of (2, 2) and (6,10) is ",slope2)
 print("")
 
 # Task 11
+print("Task 11: ")
+x = float(input("Enter x: "))
+y = x**2 +6*x+9
+print("y = ",y)
 print("")
+
+# Task 12
+print("Task 12: ")
+print(len("python") != len("dragon"))
+print("")
+
+# Task 13
+print("Task 13: ")
+print("on" in "Python" and "on" in "Dragon")
+print("")
+
+# Task 14 
+print("Task 14: ")
+print("Jargon" in "I hope this course is not full of jargon")
+print("")
+
+# Task 15
+print("Task 15: ")
+print("on" not in "Python" and "on" not in "Dragon")
+print("")
+"""

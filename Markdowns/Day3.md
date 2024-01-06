@@ -84,26 +84,33 @@ print("Slope of (2, 2) and (6,10) is ",slope2)
 <p>11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.</p>
 
 ```py
+x = float(input("Enter x: "))
+y = x**2 +6*x+9
+print("y = ",y)
 ```
 
 <p>12. Find the length of 'python' and 'dragon' and make a falsy comparison statement.</p>
 
 ```py
+print(len("python") != len("dragon"))
 ```
 
 <p>13. Use and operator to check if 'on' is found in both 'python' and 'dragon'</p>
 
 ```py
+print("on" in "Python" and "on" in "Dragon")
 ```
 
 <p>14. I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.</p>
 
 ```py
+print("Jargon" in "I hope this course is not full of jargon")
 ```
 
 <p>15. There is no 'on' in both dragon and python</p>
 
 ```py
+print("on" not in "Python" and "on" not in "Dragon")
 ```
 
 <p>16. Find the length of the text python and convert the value to float and convert it to string</p>
