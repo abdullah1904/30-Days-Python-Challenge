@@ -116,11 +116,19 @@ print("on" not in "Python" and "on" not in "Dragon")
 <p>16. Find the length of the text python and convert the value to float and convert it to string</p>
 
 ```py
+length = len("python")
+length = float(length)
+length = str(length)
 ```
 
 <p>17. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?</p>
 
 ```py
+num = int(input("Enter Number: "))
+if num%2 == 0:
+    print("Even")
+else:
+    print("Odd")
 ```
 
 <p>18. Check if the floor division of 7 by 3 is equal to the int converted value of 2.7</p>

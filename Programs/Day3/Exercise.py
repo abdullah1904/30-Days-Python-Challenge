@@ -90,4 +90,24 @@ print("")
 print("Task 15: ")
 print("on" not in "Python" and "on" not in "Dragon")
 print("")
+
+# Task 16
+print("Task 16: ")
+length = len("python")
+length = float(length)
+length = str(length)
+print("")
+
+print("Task 17: ")
+num = int(input("Enter Number: "))
+if num%2 == 0:
+    print("Even")
+else:
+    print("Odd")
+print("")
 """
+
+# Task 17
+print("Task 17: ")
+print(7//3 == int(2.7)) 
+print("")
