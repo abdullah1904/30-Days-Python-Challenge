@@ -105,9 +105,32 @@ if num%2 == 0:
 else:
     print("Odd")
 print("")
-"""
 
-# Task 17
-print("Task 17: ")
+# Task 18
+print("Task 18: ")
 print(7//3 == int(2.7)) 
 print("")
+
+# Task 19
+print("Task 19: ")
+print(type('10') == type(10))
+print("")
+
+# Task 20 
+print("Task 20: ")
+print(int("9.8") == 10)
+print("")
+
+# Task 21
+print("Task 21: ")
+hours = float(input("Enter hours: "))
+ratePerHour = float(input("Enter rate of one hour: "))
+print("Pay: ",hours*ratePerHour)
+print("")
+
+# Task 22 
+print("Task 22: ")
+years = int(input("Enter number of years you have lived: "))
+print("You have lived for",years*365*24*60*60,"seconds")
+print("")
+"""

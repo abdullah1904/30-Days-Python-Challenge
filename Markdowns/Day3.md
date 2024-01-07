@@ -134,26 +134,34 @@ else:
 <p>18. Check if the floor division of 7 by 3 is equal to the int converted value of 2.7</p>
 
 ```py
+print(7//3 == int(2.7)) 
 ```
 
 <p>19. Check if type of '10' is equal to type of 10</p>
 
 ```py
+print(type('10') == type(10))
 ```
 
 <p>20. Check if int('9.8') is equal to 10</p>
 
 ```py
+print(int("9.8") == 10)
 ```
 
 <p>21. Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person</p>
 
 ```py
+hours = float(input("Enter hours: "))
+ratePerHour = float(input("Enter rate of one hour: "))
+print("Pay: ",hours*ratePerHour)
 ```
 
 <p>22. Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years</p>
 
 ```py
+years = int(input("Enter number of years you have lived: "))
+print("You have lived for",years*365*24*60*60,"seconds")
 ```
 
 <p>23. Write a Python script that displays the following table<br/>
