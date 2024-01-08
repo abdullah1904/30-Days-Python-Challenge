@@ -7,8 +7,6 @@ height = 1.8288
 # Task 3
 equation = 2-5j 
 
-"""
-
 # Task 4
 print("Task 4: ")
 base = float(input("Enter base of triangle: "))
@@ -133,7 +131,6 @@ print("Task 22: ")
 years = int(input("Enter number of years you have lived: "))
 print("You have lived for",years*365*24*60*60,"seconds")
 print("")
-"""
 
 # Task 23
 print("Task 23: ")
