@@ -174,18 +174,36 @@ I just wonder what is next.
 ```py
 ```
 
-<p>34.</p>
+<p>34. Use a tab escape sequence to write the following lines</p>
+<pre>
+Name      Age   Country   City
+Abdullah  18    Pakistan  Lahore
+</pre>
 
 ```py
 ```
 
-<p>35.</p>
+<p>35. Use the string formatting method to display the following:</p>
+<pre>
+radius = 10
+area = 3.14 * radius ** 2
+The area of a circle with radius 10 is 314 meters square.
+</pre>
 
 ```py
 ```
 
-<p>36.</p>
+<p>36. Make the following using string formatting methods:</p>
+<pre>
+8 + 6 = 14
+8 - 6 = 2
+8 * 6 = 48
+8 / 6 = 1.33
+8 % 6 = 2
+8 // 6 = 1
+8 ** 6 = 262144
+</pre>
 
 ```py
 ```
-<a href="Day3.md">Day 3</a>
+<a href="Day3.md">Day 3</a> --- <a href="Day5.md">Day 5</a>

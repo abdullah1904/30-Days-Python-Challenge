@@ -12,4 +12,7 @@
         <td><a href="Markdowns/Day3.md" width="50%">Day 3 (Operators)</a></td>
         <td><a href="Markdowns/Day4.md" width="50%">Day 4 (Strings)</a></td>
     </tr>
+    <tr width="100%">
+        <td><a href="/Markdowns/Day5.md" width="50%">Day 5 (Lists)</a></td>
+    </tr>
 </table>
