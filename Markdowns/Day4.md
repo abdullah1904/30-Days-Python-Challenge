@@ -75,92 +75,101 @@
 ```py
 ```
 
-<p>16.</p>
+<p>16. What is the last index of the string Coding For All.</p>
 
 ```py
 ```
 
-<p>17.</p>
+<p>17. What character is at index 10 in "Coding For All" string.</p>
 
 ```py
 ```
 
-<p>18.</p>
+<p>18. Create an acronym or an abbreviation for the name 'Python For Everyone'.</p>
 
 ```py
 ```
 
-<p>19.</p>
+<p>19 Create an acronym or an abbreviation for the name 'Coding For All'.</p>
 
 ```py
 ```
 
-<p>20.</p>
+<p>20. Use index to determine the position of the first occurrence of C in Coding For All.</p>
 
 ```py
 ```
 
-<p>21.</p>
+<p>21. Use index to determine the position of the first occurrence of F in Coding For All.</p>
 
 ```py
 ```
 
-<p>22.</p>
+<p>22. Use rfind to determine the position of the last occurrence of l in Coding For All People.</p>
 
 ```py
 ```
 
-<p>23.</p>
+<p>23. Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'</p>
 
 ```py
 ```
 
-<p>24.</p>
+<p>24. Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'</p>
 
 ```py
 ```
 
-<p>25.</p>
+<p>25. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+</p>
 
 ```py
 ```
 
-<p>26.</p>
+<p>26. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'</p>
 
 ```py
 ```
 
-<p>27.</p>
+<p>27. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'</p>
 
 ```py
 ```
 
-<p>28.</p>
+<p>28. Does ''Coding For All' start with a substring Coding?</p>
 
 ```py
 ```
 
-<p>29.</p>
+<p>29. Does 'Coding For All' end with a substring coding?</p>
 
 ```py
 ```
 
-<p>30.</p>
+<p>30. '   Coding For All      '  , remove the left and right trailing spaces in the given string.</p>
 
 ```py
 ```
 
-<p>31.</p>
+<p>31. Which one of the following variables return True when we use the method isidentifier():</p>
+<ul>
+    <li>30DaysOfPython</li>
+    <li>thirty_days_of_python</li>
+</ul>
 
 ```py
 ```
 
-<p>32.</p>
+<p>32. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.</p>
 
 ```py
 ```
 
-<p>33.</p>
+<p>33. Use the new line escape sequence to separate the following sentences.</p>
+<pre>
+I am enjoying this challenge.
+I just wonder what is next.
+</pre>
 
 ```py
 ```
