@@ -172,5 +172,10 @@ print("You have lived for",years*365*24*60*60,"seconds")
 5 1 5 25 125</p>
 
 ```py
+print(1,1**0,1**1,1**2,1**3)
+print(2,2**0,2**1,2**2,2**3)
+print(3,3**0,3**1,3**2,3**3)
+print(4,4**0,4**1,4**2,4**3)
+print(5,5**0,5**1,5**2,5**3)
 ```
 <a href="Day2.md">Day 2</a> --- <a href="Day4.md">Day 4</a>
