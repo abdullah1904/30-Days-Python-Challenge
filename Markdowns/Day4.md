@@ -169,6 +169,7 @@ print(string[string.find('because'):string.rfind('because')+len('because')])
 <p>26. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'</p>
 
 ```py
+print(string.find('because'))
 ```
 
 <p>27. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'</p>
