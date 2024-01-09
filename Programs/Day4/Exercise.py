@@ -128,3 +128,9 @@ print("")
 print("Task 24: ")
 print('You cannot end a sentence with because because because is a conjunction'.rfind("because"))
 print("")
+
+# Task 25
+print("Task 25: ")
+string =  'You cannot end a sentence with because because because is a conjunction'
+print(string[string.find('because'):string.rfind('because')+len('because')])
+print("")
