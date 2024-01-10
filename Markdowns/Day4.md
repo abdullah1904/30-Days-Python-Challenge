@@ -177,9 +177,10 @@ print(string.find('because'))
 ```py
 ```
 
-<p>28. Does ''Coding For All' start with a substring Coding?</p>
+<p>28. Does 'Coding For All' start with a substring Coding?</p>
 
 ```py
+print('Coding For All'.startswith('Coding'))
 ```
 
 <p>29. Does 'Coding For All' end with a substring coding?</p>

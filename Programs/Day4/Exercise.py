@@ -140,6 +140,7 @@ print("Task 26: ")
 print(string.find('because'))
 print("")
 
-# Task 27
-print("Task 27: ")
+# Task 28
+print("Task 28: ")
+print('Coding For All'.startswith('Coding'))
 print("")
