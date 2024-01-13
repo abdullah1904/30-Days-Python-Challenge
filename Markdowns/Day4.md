@@ -175,6 +175,7 @@ print(string.find('because'))
 <p>27. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'</p>
 
 ```py
+print(string[string.find('because'):string.rfind('because')+len('because')])
 ```
 
 <p>28. Does 'Coding For All' start with a substring Coding?</p>
@@ -186,11 +187,13 @@ print('Coding For All'.startswith('Coding'))
 <p>29. Does 'Coding For All' end with a substring coding?</p>
 
 ```py
+print("Coding for All".endswith('Coding'))
 ```
 
 <p>30. '   Coding For All      '  , remove the left and right trailing spaces in the given string.</p>
 
 ```py
+print("  Coding For All  ".strip())
 ```
 
 <p>31. Which one of the following variables return True when we use the method isidentifier():</p>
@@ -200,11 +203,14 @@ print('Coding For All'.startswith('Coding'))
 </ul>
 
 ```py
+print("30DaysOfPython".isidentifier())
+print("thirty_days_of_python".isidentifier())
 ```
 
 <p>32. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.</p>
 
 ```py
+print(('-'.join( ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon'])))
 ```
 
 <p>33. Use the new line escape sequence to separate the following sentences.</p>
@@ -214,6 +220,7 @@ I just wonder what is next.
 </pre>
 
 ```py
+print("I am enjoying this challenge.\nI just wonder what is next.")
 ```
 
 <p>34. Use a tab escape sequence to write the following lines</p>
@@ -223,6 +230,7 @@ Abdullah  18    Pakistan  Lahore
 </pre>
 
 ```py
+print("Name\t\tAge\t\tCountry\t\tCity\nAbdullah\t18\t\tPakistan\tLahore")
 ```
 
 <p>35. Use the string formatting method to display the following:</p>
@@ -233,6 +241,9 @@ The area of a circle with radius 10 is 314 meters square.
 </pre>
 
 ```py
+print("radius = {}".format(radius))
+print("area = {} * radius ** {}".format(pi,2))
+print("The area of a circle with radius {} is {:.0f} meters square".format(radius,pi*radius**2))
 ```
 
 <p>36. Make the following using string formatting methods:</p>
@@ -247,5 +258,14 @@ The area of a circle with radius 10 is 314 meters square.
 </pre>
 
 ```py
+num1 = 8
+num2 = 6
+print("{} + {} = {}".format(num1,num2,num1+num2))
+print("{} - {} = {}".format(num1,num2,num1-num2))
+print("{} * {} = {}".format(num1,num2,num1*num2))
+print("{} / {} = {:.2f}".format(num1,num2,num1/num2))
+print("{} % {} = {}".format(num1,num2,num1%num2))
+print("{} // {} = {}".format(num1,num2,num1//num2))
+print("{} ** {} = {}".format(num1,num2,num1**num2))
 ```
 <a href="Day3.md">Day 3</a> --- <a href="Day5.md">Day 5</a>

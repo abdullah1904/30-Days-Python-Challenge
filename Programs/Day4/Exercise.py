@@ -140,7 +140,65 @@ print("Task 26: ")
 print(string.find('because'))
 print("")
 
+# Task 27
+print("Task 27: ")
+print(string[string.find('because'):string.rfind('because')+len('because')])
+print("")
+
 # Task 28
 print("Task 28: ")
 print('Coding For All'.startswith('Coding'))
+print("")
+
+# Task 29
+print("Task 29: ")
+print("Coding for All".endswith('Coding'))
+print("")
+
+# Task 30
+print("Task 30: ")
+print("  Coding For All  ".strip())
+print("")
+
+# Task 31
+print("Task 31: ")
+print("30DaysOfPython".isidentifier())
+print("thirty_days_of_python".isidentifier())
+print("")
+
+# Task 32
+print("Task 32: ")
+print(('-'.join( ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon'])))
+print("")
+
+# Task 33
+print("Task 33: ")
+print("I am enjoying this challenge.\nI just wonder what is next.")
+print("")
+
+# Task 34
+print("Task 34: ")
+print("Name\t\tAge\t\tCountry\t\tCity\nAbdullah\t18\t\tPakistan\tLahore")
+print("")
+
+# Task 35
+print("Task 35: ")
+radius = 10
+pi = 3.14
+print("radius = {}".format(radius))
+print("area = {} * radius ** {}".format(pi,2))
+print("The area of a circle with radius {} is {:.0f} meters square".format(radius,pi*radius**2))
+print("")
+
+# Task 36
+print("Task 36: ")
+num1 = 8
+num2 = 6
+print("{} + {} = {}".format(num1,num2,num1+num2))
+print("{} - {} = {}".format(num1,num2,num1-num2))
+print("{} * {} = {}".format(num1,num2,num1*num2))
+print("{} / {} = {:.2f}".format(num1,num2,num1/num2))
+print("{} % {} = {}".format(num1,num2,num1%num2))
+print("{} // {} = {}".format(num1,num2,num1//num2))
+print("{} ** {} = {}".format(num1,num2,num1**num2))
 print("")
