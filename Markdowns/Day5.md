@@ -4,51 +4,68 @@
 <p>1. Declare an empty list</p>
 
 ```py
+list = []
 ```
 
 <p>2. Declare a list with more than 5 items</p>
 
 ```py
+list = [1,2,3,4,5,6,7]
 ```
 
 <p>3. Find the length of your list</p>
 
 ```py
+print(len(list))
 ```
 
 <p>4. Get the first item, the middle item and the last item of the list</p>
 
 ```py
+first = 0
+middle = int(len(list)/2)
+last = len(list) - 1
+print(list[first],list[middle],list[last])
 ```
 
 <p>5. Declare a list called mixed_data_types, put your(name, age, height, marital status, address)</p>
 
 ```py
+mixed_data_types = ['Abdullah',19,5.11,'Un-Married','Pakistan']
 ```
 
 <p>6. Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.</p>
 
 ```py
+it_companies = ['Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon']
 ```
 
 <p>7. Print the list using print()</p>
 
 ```py
+print(it_companies)
 ```
 
 <p>8. Print the number of companies in the list</p>
 
 ```py
+print(len(it_companies))
 ```
 
 <p>9. Print the first, middle and last company</p>
 
 ```py
+first = 0
+middle = int(len(it_companies)/2)
+last = len(it_companies)-1
+print(it_companies[first],it_companies[middle],it_companies[last])
 ```
 
 <p>10. Print the list after modifying one of the companies</p>
 
 ```py
+it_companies[4] = 'Netflix'
+print(it_companies)
 ```
 
 <p>11. Add an IT company to it_companies</p>
