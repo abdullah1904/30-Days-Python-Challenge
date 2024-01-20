@@ -71,6 +71,7 @@ print(it_companies)
 <p>11. Add an IT company to it_companies</p>
 
 ```py
+it_companies.append("Spotify")
 ```
 
 <p>12. Insert an IT company in the middle of the companies list</p>
