@@ -77,16 +77,20 @@ it_companies.append("Spotify")
 <p>12. Insert an IT company in the middle of the companies list</p>
 
 ```py
+mid = int(len(it_companies)/2)
+it_companies.insert(mid,"Uber");
 ```
 
 <p>13. Change one of the it_companies names to uppercase (IBM excluded!)</p>
 
 ```py
+it_companies[0] = it_companies[0].upper();
 ```
 
 <p>14. Join the it_companies with a string '#;  '</p>
 
 ```py
+"#".join(it_companies)
 ```
 
 <p>15. Check if a certain company exists in the it_companies list.</p>

@@ -44,3 +44,32 @@ print("Task 10: ")
 it_companies[4] = 'Netflix'
 print(it_companies)
 print("")
+
+# Task 11
+print("Task 11: ")
+it_companies.append("Spotify")
+print(it_companies)
+print("")
+
+# Task 12
+print("Task 12: ")
+mid = int(len(it_companies)/2)
+it_companies.insert(mid,"Uber");
+print(it_companies)
+print("")
+
+# Task 13
+print("Task 13: ")
+it_companies[0] = it_companies[0].upper();
+print(it_companies)
+print("")
+
+# Task 14
+print("Task 14: ")
+print("#".join(it_companies))
+print("")
+
+# Task 15
+print("Task 15: ")
+
+print("")
