@@ -71,5 +71,27 @@ print("")
 
 # Task 15
 print("Task 15: ")
+print("Uber" in it_companies)
+print("")
 
+# Task 16
+print("Task 16: ")
+it_companies.sort()
+print(it_companies)
+print("")
+
+# Task 17
+print("Task 17: ")
+it_companies.reverse()
+print(it_companies)
+print("")
+
+# Task 18
+print("Task 18: ")
+print(it_companies[:3])
+print("")
+
+# Task 19
+print("Task 19: ")
+print(it_companies[-3:])
 print("")

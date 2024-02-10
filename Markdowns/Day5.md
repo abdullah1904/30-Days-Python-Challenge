@@ -96,26 +96,31 @@ it_companies[0] = it_companies[0].upper();
 <p>15. Check if a certain company exists in the it_companies list.</p>
 
 ```py
+"Uber" in it_companies
 ```
 
 <p>16. Sort the list using sort() method</p>
 
 ```py
+it_companies.sort()
 ```
 
 <p>17. Reverse the list in descending order using reverse() method</p>
 
 ```py
+it_companies.reverse()
 ```
 
 <p>18. Slice out the first 3 companies from the list</p>
 
 ```py
+it_companies[:3]
 ```
 
 <p>19. Slice out the last 3 companies from the list</p>
 
 ```py
+it_companies[-3:]
 ```
 
 <p>20. Slice out the middle IT company or companies from the list</p>
