@@ -95,3 +95,53 @@ print("")
 print("Task 19: ")
 print(it_companies[-3:])
 print("")
+
+# Task 20
+print("Task 20: ")
+print(it_companies[len(it_companies)//2])
+print("")
+
+# Task 21
+print("Task 21: ")
+it_companies.pop(0)
+print(it_companies)
+print("")
+
+
+# Task 22
+print("Task 22: ")
+it_companies.pop(len(it_companies)//2)
+print(it_companies)
+print("")
+
+# Task 23
+print("Task 23: ")
+it_companies.pop(-1)
+print(it_companies)
+print("")
+
+# Task 24
+print("Task 24: ")
+it_companies.clear()
+print(it_companies)
+print("")
+
+# Task 25
+print("Task 25: ")
+del it_companies
+print("")
+
+# Task 26
+print("Task 26: ")
+frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+backEnd = ['Node','Express', 'MongoDB']
+print(frontEnd + backEnd)
+print("")
+
+# Task 27
+print("Task 27: ")
+fullStack = frontEnd + backEnd
+fullStack.insert(5,'Python')
+fullStack.insert(6,'SQL')
+print(fullStack)
+print("")

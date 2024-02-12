@@ -126,31 +126,37 @@ it_companies[-3:]
 <p>20. Slice out the middle IT company or companies from the list</p>
 
 ```py
+it_companies[len(it_companies)//2]
 ```
 
 <p>21. Remove the first IT company from the list</p>
 
 ```py
+it_companies.pop(0)
 ```
 
 <p>22. Remove the middle IT company or companies from the list</p>
 
 ```py
+it_companies.pop(len(it_companies)//2)
 ```
 
 <p>23. Remove the last IT company from the list</p>
 
 ```py
+it_companies.pop(-1)
 ```
 
 <p>24. Remove all IT companies from the list</p>
 
 ```py
+it_companies.clear()
 ```
 
 <p>25. Destroy the IT companies list</p>
 
 ```py
+del it_companies
 ```
 
 <p>26. Join the following lists</p>
@@ -161,11 +167,15 @@ back_end = ['Node','Express', 'MongoDB']
 </pre>
 
 ```py
+frontEnd + backEnd
 ```
 
 <p>27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.</p>
 
 ```py
+fullStack = frontEnd + backEnd
+fullStack.insert(5,'Python')
+fullStack.insert(6,'SQL')
 ```
 
 <hr/>
@@ -205,6 +215,7 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 ```py
 ```
 
+<a href="Day4.md">Day 4</a>
 <p>Countries list is: </p>
 <pre>
 countries = [
@@ -403,4 +414,3 @@ countries = [
   'Zimbabwe',
 ];
 </pre>
-<a href="Day4.md">Day 4</a>
