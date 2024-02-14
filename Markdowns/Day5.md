@@ -194,25 +194,45 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 </ul>
 
 ```py
+ages.sort()
+max(ages)
+min(ages)
+
+
+ages.append(minElem)
+ages.append(maxElem)
+
+
+(ages[len(ages)//2] + ages[(len(ages)//2)+1])/2
+
+
+sum(ages)/len(ages)
+
+
+maxElem - minElem
+
+
+abs(minElem - average)
+abs(maxElem - average)
 ```
 
 <p>2. Find the middle country(ies) in the countries list</p>
 
-<pre>
-
-</pre>
-
 ```py
+countries[len(countries)//2]
 ```
 
 <p>3. Divide the countries list into two equal lists if it is even if not one more country for the first half.</p>
 
 ```py
+countries[:len(countries)//2]
+countries[len(countries)//2:]
 ```
 
 <p>4. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.</p>
 
 ```py
+firstCountry, secondCountry, thirdCountry , *scandicCountries =  ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 ```
 
 <a href="Day4.md">Day 4</a>
