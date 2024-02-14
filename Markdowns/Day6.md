@@ -71,3 +71,5 @@ nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 
 ```py
 ```
+
+<a href="Day5.md">Day 5</a> --- <a href="Day7.md">Day 7</a>
