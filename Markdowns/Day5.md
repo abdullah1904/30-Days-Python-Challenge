@@ -235,7 +235,7 @@ countries[len(countries)//2:]
 firstCountry, secondCountry, thirdCountry , *scandicCountries =  ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 ```
 
-<a href="Day4.md">Day 4</a>
+<a href="Day4.md">Day 4</a> --- <a href="Day6.md">Day 6</a>
 <p>Countries list is: </p>
 <pre>
 countries = [

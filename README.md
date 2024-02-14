@@ -15,5 +15,10 @@
     </tr>
     <tr width="100%">
         <td><a href="/Markdowns/Day5.md" width="50%">Day 5 (Lists)</a></td>
+        <td><a href="/Markdowns/Day6.md" width="50%">Day 6 (Tuples)</a></td>
+    </tr>
+    <tr width="100%">
+        <td><a href="" width="50%">Day 7 (Sets)</a></td>
+        <td><a href="" width="50%">Day 8 (Dictionaries)</a></td>
     </tr>
 </table>
