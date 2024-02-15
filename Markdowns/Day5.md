@@ -1,5 +1,5 @@
 <h1 align="center">30 Days Python Challenge</h1>
-<h2>Day 5 (Lists)</h1>
+<h2>Day 5 (Lists)</h2>
 <h3>Exercise 1:</h3>
 <p>1. Declare an empty list</p>
 

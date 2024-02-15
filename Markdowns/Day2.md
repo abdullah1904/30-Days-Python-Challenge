@@ -1,5 +1,5 @@
 <h1 align="center">30 Days Python Challenge</h1>
-<h2>Day 2 (Variables and Built-In Functions)</h1>
+<h2>Day 2 (Variables and Built-In Functions)</h2>
 <h3>Exercise 1:</h3>
 <p>1. Inside 30DaysOfPython create a folder called day_2. Inside this folder create a file named variables.py</p>
 

@@ -1,5 +1,5 @@
 <h1 align="center">30 Days Python Challenge</h1>
-<h2>Day 7 (Sets)</h1>
+<h2>Day 7 (Sets)</h2>
 <pre>
 # sets
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
@@ -87,5 +87,5 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 ```py
 ```
 
-<a href="Day6.md">Day 6</a> --- <a href="../README.md">Day 8
+<a href="Day6.md">Day 6</a> --- <a href="Day8.md">Day 8
 </a>

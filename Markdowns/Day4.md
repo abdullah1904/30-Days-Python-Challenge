@@ -1,5 +1,5 @@
 <h1 align="center">30 Days Python Challenge</h1>
-<h2>Day 4 (Strings)</h1>
+<h2>Day 4 (Strings)</h2>
 <h3>Exercises:</h3>
 <p>1. Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.</p>
 
