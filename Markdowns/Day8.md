@@ -81,4 +81,4 @@ del dog['legs']
 del student
 ```
 
-<a href="Day7.md">Day 7</a> --- <a href="Day8.md">Day 9</a>
+<a href="Day7.md">Day 7</a> --- <a href="Day9.md">Day 9</a>
