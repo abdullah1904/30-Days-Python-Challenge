@@ -4,6 +4,11 @@
 <p>1. Get user input using input(“Enter your age: ”). If user is 18 or older, give feedback: You are old enough to drive. If below 18 give feedback to wait for the missing amount of years.</p>
 
 ```py
+age = int(input("Enter your age: "))
+if age>= 18:
+    print("You're old enough to drive")
+else:
+    print("Wait {} years to become old enough to drive".format(18-age))
 ```
 
 <p>2. Compare the values of my_age and your_age using if … else. Who is older (me or you)? Use input(“Enter your age: ”) to get the age as input. You can use a nested condition to print 'year' for 1 year difference in age, 'years' for bigger differences, and a custom text if my_age = your_age. </p>
@@ -14,6 +19,14 @@
 <p>3. Get two numbers from the user using input prompt. If a is greater than b return a is greater than b, if a is less b return a is smaller than b, else a is equal to b.</p>
 
 ```py
+num1 = int(input("Enter First Number: "))
+num2 = int(input("Enter Second Number: "))
+if num1>num2:
+    print("First number is greater")
+elif num2>num1:
+    print("Second number is greater")
+else:
+    print("Both are equal")
 ```
 
 <hr/>

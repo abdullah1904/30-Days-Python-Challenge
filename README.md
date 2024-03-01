@@ -21,4 +21,12 @@
         <td><a href="Markdowns/Day7.md" width="50%">Day 7 (Sets)</a></td>
         <td><a href="Markdowns/Day8.md" width="50%">Day 8 (Dictionaries)</a></td>
     </tr>
+    <tr width="100%">
+        <td><a href="Markdowns/Day9.md" width="50%">Day 9 (Conditionals)</a></td>
+        <td><a href="Markdowns/Day10.md" width="50%">Day 10 (Loops)</a></td>
+    </tr>
+    <tr width="100%">
+        <td><a href="Markdowns/Day11.md" width="50%">Day 11 (Functions)</a></td>
+        <td><a href="Markdowns/Day12.md" width="50%">Day 12 (Modules)</a></td>
+    </tr>
 </table>
