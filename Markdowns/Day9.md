@@ -14,6 +14,16 @@ else:
 <p>2. Compare the values of my_age and your_age using if … else. Who is older (me or you)? Use input(“Enter your age: ”) to get the age as input. You can use a nested condition to print 'year' for 1 year difference in age, 'years' for bigger differences, and a custom text if my_age = your_age. </p>
 
 ```py
+myAge = 19
+userAge = int(input("Enter Your Age: "))
+if myAge == userAge:
+    print("We've same age!")
+else:
+    ageDifference = abs(myAge - userAge)
+    if myAge < userAge:
+        print("you're {} {} older than me".format(ageDifference,'years' if ageDifference > 1 else 'year'))
+    else:
+        print("I'm {} {} older than you".format(ageDifference,'years' if ageDifference > 1 else 'year'))
 ```
 
 <p>3. Get two numbers from the user using input prompt. If a is greater than b return a is greater than b, if a is less b return a is smaller than b, else a is equal to b.</p>
@@ -56,11 +66,36 @@ else:
 </table>
 
 ```py
+marks = int(input("Enter Student Marks: "))
+if marks <= 100 and marks >= 80:
+    print('A Grade')
+elif marks<=79 and marks>=70:
+    print('B Grade')
+elif marks<=69 and marks>=60:
+    print('C Grade')
+elif marks<=59 and marks>=50:
+    print('D Grade')
+elif marks<= 0 and marks>=49:
+    print('F Grade')
+else:
+    print('Invalid Marks')
 ```
 
 <p>2. Check if the season is Autumn, Winter, Spring or Summer. If the user input is: September, October or November, the season is Autumn. December, January or February, the season is Winter. March, April or May, the season is Spring June, July or August, the season is Summer.</p>
 
 ```py
+month = input("Enter Month Name: ")
+match(month.lower()):
+    case 'september' | 'october' | 'november':
+        print('Season is Autumn')
+    case 'december' | 'january' | 'february':
+        print('Season is Winter')
+    case 'march' | 'april' | 'may':
+        print('Season is Spring')
+    case 'june' | 'july' | 'august':
+        print('Season is Summer')
+    case _:
+        print('Invalid Month Name')
 ```
 
 <p>3. The following list contains some fruits:</p>
@@ -68,6 +103,13 @@ else:
 <p>If a fruit doesn't exist in the list add the fruit to the list and print the modified list. If the fruit exists print('That fruit already exist in the list')</p>
 
 ```py
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruit = input("Enter Fruit Name: ")
+if fruit.lower() in fruits:
+    print('That fruit already exist in the list')
+else:
+    fruits.append(fruit.lower())
+    print(sorted(fruits))
 ```
 
 <hr/>

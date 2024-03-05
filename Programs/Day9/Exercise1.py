@@ -6,6 +6,16 @@ else:
     print("Wait {} years to become old enough to drive".format(18-age))
 
 # Task 2
+myAge = 19
+userAge = int(input("Enter Your Age: "))
+if myAge == userAge:
+    print("We've same age!")
+else:
+    ageDifference = abs(myAge - userAge)
+    if myAge < userAge:
+        print("you're {} {} older than me".format(ageDifference,'years' if ageDifference > 1 else 'year'))
+    else:
+        print("I'm {} {} older than you".format(ageDifference,'years' if ageDifference > 1 else 'year'))
 
 # Task 3
 num1 = int(input("Enter First Number: "))
