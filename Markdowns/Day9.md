@@ -137,6 +137,17 @@ person={
 </ul>
 
 ```py
+if 'skills' in person.keys():
+    mid = len(person['skills'])//2
+    print(person['skills'][mid])
+
+if 'skills' in person.keys():
+    if 'Python' in person['skills']:
+        print(person['skills'][-1])
+
+
+print('{} lives in {}. He is {}.'.format(person['firstName'],person['country'],'married' if person['isMarried'] else 'not married'))
+
 ```
 
 <a href="Day8.md">Day 8</a> --- <a href="Day10.md">Day 10</a>
