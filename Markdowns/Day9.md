@@ -145,6 +145,14 @@ if 'skills' in person.keys():
     if 'Python' in person['skills']:
         print(person['skills'][-1])
 
+if 'React' in person['skills'] and 'Node' in person['skills'] and 'MongoDB' in person['skills']:
+    print('He is fullstack developer')
+elif 'Node' in person['skills'] and 'Python' in person['skills'] and 'MongoDB' in person['skills']:
+    print('He is backend developer')
+elif 'React' in person['skills'] and 'JavaScript' in person['skills'] and len(person['skills']) == 2:
+    print('He is frontend developer')
+else:
+    print('Unknown Title')
 
 print('{} lives in {}. He is {}.'.format(person['firstName'],person['country'],'married' if person['isMarried'] else 'not married'))
 

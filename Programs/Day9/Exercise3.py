@@ -30,5 +30,6 @@ elif 'React' in person['skills'] and 'JavaScript' in person['skills'] and len(pe
     print('He is frontend developer')
 else:
     print('Unknown Title')
+
 # Task 4
 print('{} lives in {}. He is {}.'.format(person['firstName'],person['country'],'married' if person['isMarried'] else 'not married'))
