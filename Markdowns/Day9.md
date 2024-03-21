@@ -155,7 +155,6 @@ else:
     print('Unknown Title')
 
 print('{} lives in {}. He is {}.'.format(person['firstName'],person['country'],'married' if person['isMarried'] else 'not married'))
-
 ```
 
 <a href="Day8.md">Day 8</a> --- <a href="Day10.md">Day 10</a>
