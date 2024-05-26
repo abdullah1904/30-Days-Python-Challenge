@@ -157,14 +157,4 @@ while(leftPtr<rightPtr):
 print(list)
 ```
 
-<p>3.Go to the data folder and use the <a href="https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py">countries_data.py</a> file</p>
-<ol type=i>
-    <li>What are the total number of languages in the data</li>
-    <li>Find the ten most spoken languages from the data</li>
-    <li>Find the 10 most populated countries in the world</li>
-</ol>
-
-```py
-```
-
 <a href="Day9.md">Day 9</a> --- <a href="Day11.md">Day 11</a>

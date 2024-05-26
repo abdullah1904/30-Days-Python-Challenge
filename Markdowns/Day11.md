@@ -4,11 +4,18 @@
 <p>1. Declare a function add_two_numbers. It takes two parameters and it returns a sum.</p>
 
 ```py
+def add_tqo_numbers(first_num,second_num):
+    sum = first_num + second_num
+    return sum
 ```
 
 <p>2. Area of a circle is calculated as follows: area = π x r x r. Write a function that calculates area_of_circle.</p>
 
 ```py
+def area_of_circle(radius):
+    pi = 3.14
+    area = pi * radius**2
+    return area
 ```
 
 <p>3. Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments. Check if all the list items are number types. If not do give a reasonable feedback.</p>
@@ -147,15 +154,6 @@ print(evens_and_odds(100))
 ```
 
 <p>4. Write a function which check if provided variable is a valid python variable</p>
-
-```py
-```
-
-<p>5. Go to the data folder and access the <a href="https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py">countries_data.py</a> file.</p>
-<ul>
-    <li>Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order</li>
-    <li>Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order.</li>
-</ul>
 
 ```py
 ```
